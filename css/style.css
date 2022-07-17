@@ -18,43 +18,70 @@ body{
     
 }
 
-h1{
-    color: #f9faf8;
-    font-size: 24px;
-
-}
 .top{
     display:flex;
     justify-content: center;
-
     background-color: #1F2937;
     color: #E5e7eb;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
-.top-group{
-    padding-right: 50px;
+.logo{
+    margin: 0;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis:500px;
+    margin-right: 10%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .nav-links{
     display: flex;
     justify-content: space-between;
-
     font-size: 18px;
 }
 
 a{
     margin-left: 20px;
     color: #E5e7eb;
+    text-decoration: none;
+
 }
 
-h2{
+a:hover{
+    font-size: 150%;
+}
+
+
+.top-title{
     font-size: 48px;
     font-weight: bolder;
+    height: auto;
+
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .top-text{
     font-size: 24px;
     color: #f9faf8;
+    text-align: left;
+
+    margin-top: 0;
+    margin-right: 0;
 }
 
 button{
@@ -80,9 +107,10 @@ h3{
 
 .header-image{
     height: auto;
-    width:250px;
+    width: 500px;
     border: none;
     background-color: #1F2937;
+    margin: 0px;
 }
 
 img{
@@ -127,6 +155,9 @@ h6{
 
 }
 
+figure{
+    margin:0;
+}
 figcaption{
     font-size: 5px;
 }
